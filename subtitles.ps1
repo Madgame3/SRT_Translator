@@ -29,7 +29,7 @@ Foreach($file in $Queue){
             $from = "en";
             $to = "ja";
             $uri = "https://api.microsofttranslator.com/v2/Http.svc/Translate?text=$text&from=$from&to=$to" 
-            $Key = "dd2f868f157c41058ea01cac84bc9045"
+            $Key = ""
             $XML = Invoke-RestMethod `
                 -Method Get `
                 -Uri $uri `
